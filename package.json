@@ -5,7 +5,8 @@
   "main": "app.js",
   "scripts": {
     "start": "pm2 start app.js",
-    "test": "mocha"
+    "test": "mocha",
+    "stop" : "pm2 stop app.js"
   },
   "repository": {
     "type": "git",
